@@ -1,0 +1,6 @@
+<h2>タイトル</h2>
+<p><%= @list.title %></p>
+
+<h2>本文</h2>
+<P><%= @list.body %></P>
+<%= link_to "編集", list_edit_path(@list.id) %>
